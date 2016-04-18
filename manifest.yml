@@ -1,0 +1,8 @@
+---
+applications:
+- name: drupal-asd
+  buildpack: php_buildpack
+  host: drupal-asd
+  domain: mybluemix.net
+  memory: 512M
+  disk_quota: 512M
